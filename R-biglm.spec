@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.8
-Release:          1
+Release:          2
 Summary:          bounded memory linear and generalized linear models
 Group:            Sciences/Mathematics
 License:          GPL
