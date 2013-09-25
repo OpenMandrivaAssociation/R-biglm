@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.8
-Release:          2
+Version:          0.9.1
+Release:          1
 Summary:          bounded memory linear and generalized linear models
 Group:            Sciences/Mathematics
 License:          GPL
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/biglm_0.9-1.tar.gz
 Requires:         R-DBI R-methods 
 Requires:         R-RSQLite R-RODBC 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-DBI R-methods
